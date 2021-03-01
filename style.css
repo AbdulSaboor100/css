@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Arsenal', sans-serif;
+}
+body {
+  background-color: rgb(53, 49, 49);
+}
+.header {
+  background-color: rgb(255, 0, 0);
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+p{
+ color: rgb(255, 0, 0);
+}
+ul,li,h1 {
+  display: inline;
+}
+ul{
+    float: right;
+    margin-top: 12px;
+}
+li{
+    margin-right: 50px;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.img{
+    clear: both;
+}
+.img img{
+    display: block;
+    width: 100%;;
+}
+a:hover{
+    background-color: rgb(12, 11, 11);
+    color: rgb(255, 6, 6);
+    padding: 10px;
+    border-bottom: 3px solid white;
+    border-radius: 4px;
+}
+.content .para{
+    width: 33.33%;
+    padding: 5%;
+    float: left;
+}
+.footer p{
+    width: 50%;
+    text-align: center;
+    margin-left: 27%;
+}
+.footer .copy{
+    padding: 20px;
+}
